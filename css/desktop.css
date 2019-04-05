@@ -1,10 +1,16 @@
 body {
   background: url(/assets/Landing-bgr.jpg); }
 
+#logo {
+  background: url(/assets/bouncy-logo.jpg);
+  height: 40px;
+  width: 140px;
+  margin-left: 87px; }
+
 .nav {
-  float: right; }
+  display: flex;
+  justify-content: flex-end; }
 
 .wrapper {
   width: 100%;
-  margin: 0 auto;
-  display: flex; }
+  margin: 0 auto; }
