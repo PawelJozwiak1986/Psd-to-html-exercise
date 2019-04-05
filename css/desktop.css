@@ -1,0 +1,10 @@
+body {
+  background: url(/assets/Landing-bgr.jpg); }
+
+.nav {
+  float: right; }
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex; }
