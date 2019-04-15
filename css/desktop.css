@@ -23,7 +23,7 @@ body {
   text-decoration: none;
   color: white;
   font-size: 18px;
-  font-family: 'Open-sans'; }
+  font-family: 'Open-sans' sans-serif; }
 
 .wrapper {
   width: 100%;
