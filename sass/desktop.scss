@@ -4,7 +4,7 @@ body{
 #logo{
   background: url(/assets/bouncy-logo.jpg);
   height: 40px;
-  width: 140px;
+  width: 123px;
   margin-left: 87px;
   display: flex;
   justify-content: flex-start;
@@ -14,7 +14,7 @@ body{
   margin-right: 75px;
   justify-content: flex-end;
   list-style: none;
-  margin-top: 25px;
+  margin-top: 28px;
   font-family: "Myriad Pro";
   color: rgb(255, 255, 255); 
 }
@@ -26,8 +26,6 @@ body{
   color:white;
   font-size:18px;
   font-family: 'Open-sans' sans-serif;
- 
-  
 }
 .wrapper{
   width: 100%;
@@ -42,7 +40,6 @@ body{
   font-size: 15px;
   font-family: "Myriad Pro";
   color: rgb(255, 255, 255);
-  
 }
 .intro p{
   font-size: 16px;
@@ -52,7 +49,9 @@ body{
   background: url(/assets/eclipse-button.jpg);
   height: 38px;
   width: 38px;
+  margin-top: 120px;
   border:0;
+  cursor: pointer;
 }
 .intro__button--wrapper{
   display: flex;
