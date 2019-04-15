@@ -14,7 +14,9 @@ body {
   margin-right: 75px;
   justify-content: flex-end;
   list-style: none;
-  margin-top: 25px; }
+  margin-top: 25px;
+  font-family: "Myriad Pro";
+  color: white; }
 
 .nav li {
   margin-left: 15px; }
@@ -29,3 +31,16 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between; }
+
+.intro {
+  height: 40%;
+  text-align: center;
+  display: block;
+  margin: 14% 27% 8%;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: white; }
+
+.intro p {
+  font-size: 16px;
+  font-family: "OpenSans"; }
