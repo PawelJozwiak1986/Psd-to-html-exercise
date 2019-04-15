@@ -16,8 +16,7 @@ body{
   list-style: none;
   margin-top: 25px;
   font-family: "Myriad Pro";
-  color: rgb(255, 255, 255);
-  
+  color: rgb(255, 255, 255); 
 }
 .nav li {
   margin-left:15px;
@@ -32,10 +31,8 @@ body{
 }
 .wrapper{
   width: 100%;
-  // margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  
 }
 .intro{
   height: 40%;
@@ -51,6 +48,16 @@ body{
   font-size: 16px;
   font-family: "OpenSans";
 }
-
+.intro__button{
+  background: url(/assets/eclipse-button.jpg);
+  height: 38px;
+  width: 38px;
+  border:0;
+}
+.intro__button--wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
