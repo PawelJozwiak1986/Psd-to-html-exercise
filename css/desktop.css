@@ -5,12 +5,19 @@ body {
   background: url(/assets/bouncy-logo.jpg);
   height: 40px;
   width: 140px;
-  margin-left: 87px; }
+  margin-left: 87px;
+  display: flex;
+  justify-content: flex-start; }
 
 .nav {
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  list-style: none; }
+
+.nav li {
+  margin-left: 15px; }
 
 .wrapper {
   width: 100%;
-  margin: 0 auto; }
+  display: flex;
+  justify-content: space-between; }
