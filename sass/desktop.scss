@@ -1,7 +1,7 @@
-body{
+body {
   background: url(/assets/Landing-bgr.jpg);
 }
-#logo{
+#logo {
   background: url(/assets/bouncy-logo.jpg);
   height: 40px;
   width: 123px;
@@ -9,7 +9,7 @@ body{
   display: flex;
   justify-content: flex-start;
 }
-.nav{
+.nav {
   display: flex;
   margin-right: 75px;
   justify-content: flex-end;
@@ -17,22 +17,23 @@ body{
   margin-top: 28px;
   font-family: "Myriad Pro";
   color: rgb(255, 255, 255); 
-}
-.nav li {
-  margin-left:15px;
-}
-.nav li a{
+    
+  li {
+    margin-left:15px;
+  }
+   a {
   text-decoration: none;
   color:white;
   font-size:18px;
   font-family: 'Open-sans' sans-serif;
+  }
 }
-.wrapper{
+.wrapper {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.intro{
+.intro {
   height: 40%;
   text-align: center;
   display: block;
@@ -40,12 +41,13 @@ body{
   font-size: 15px;
   font-family: "Myriad Pro";
   color: rgb(255, 255, 255);
+
+  p {
+    font-size: 16px;
+    font-family: "OpenSans";
+  }
 }
-.intro p{
-  font-size: 16px;
-  font-family: "OpenSans";
-}
-.intro__button{
+.intro__button { 
   background: url(/assets/eclipse-button.jpg);
   height: 38px;
   width: 38px;
@@ -53,7 +55,7 @@ body{
   border:0;
   cursor: pointer;
 }
-.intro__button--wrapper{
+.intro__button--wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
