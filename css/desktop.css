@@ -1,5 +1,5 @@
 body {
-  background: url(/assets/Landing-bgr.jpg); }
+  background: url(/assets/Landing-bgr.jpg) no-repeat; }
 
 #logo {
   background: url(/assets/bouncy-logo.jpg);
@@ -53,4 +53,15 @@ body {
 .intro__button--wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 190px; }
+
+.about {
+  display: flex;
   justify-content: center; }
+
+.about__describe {
+  width: 30%; }
+
+.about__img {
+  width: 30%; }
