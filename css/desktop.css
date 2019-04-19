@@ -65,3 +65,7 @@ body {
 
 .about__img {
   width: 30%; }
+
+.about__details {
+  display: block;
+  background: #f3f3f3; }
