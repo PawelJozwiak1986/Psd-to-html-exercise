@@ -63,6 +63,14 @@ body {
 .about__describe {
   width: 30%; }
 
+.about__button {
+  height: 30px;
+  width: 120px;
+  border-radius: 15px;
+  border: black solid 1px;
+  font-size: 13px;
+  margin-top: 8px; }
+
 .about__img {
   width: 30%; }
 
@@ -71,7 +79,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-top: 50px; }
 
 .about__details--buttons {
   display: flex;
@@ -104,17 +113,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 200px 0 200px; }
+  margin: 0 160px 0 225px; }
 
 .about__details--description {
   margin-top: 0px; }
+
+.about__details--left p {
+  margin-top: 32px; }
 
 .about__details--left {
   display: block; }
 
 .about__details--right {
-  margin-left: 100px;
-  margin-top: 100px; }
+  margin-top: 37px;
+  margin-left: 120px;
+  margin-right: 53px; }
 
 .about__background {
   background: #f3f3f3; }
