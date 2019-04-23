@@ -79,21 +79,31 @@ body {
 }
 .about__details--buttons{
   display: flex;
+  padding-left: 0px;
 }
-.about__details--buttons li {
+.about__details--buttons a{
   list-style: none;
   height: 60px;
   width: 60px;
+  // background: url(/assets/about-bottons.jpg) no-repeat;
+  
+  cursor: pointer
+}
+#heart{
   background: url(/assets/about-bottons.jpg) no-repeat;
+  background-position:0px 0;
+  margin-left: 0px;
 }
-.about__details--buttons li :first-child{
-  background-position: 100px -86px;
+#mouse{
+  background: url(/assets/about-bottons.jpg) no-repeat;
+  background-position:-80px 0;
 }
-.about__details--buttons li :second-child{
-  background-position: 0 -86px;
+#blob{
+  background: url(/assets/about-bottons.jpg) no-repeat;
+  background-position:-160px 0;
 }
-.about__details--buttons li :third-child{
-  background-position: 0 -86px;
+.about__details--button{
+  margin-left: 30px;
 }
 .about__bottom{
   background:#f3f3f3;
