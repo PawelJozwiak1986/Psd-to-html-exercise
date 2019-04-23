@@ -73,11 +73,45 @@ body {
   justify-content: center;
   flex-direction: column; }
 
+.about__details--buttons {
+  flex-direction: row; }
+
+.mouse, .heart, .blob {
+  background: url(assets/about-bottons.jpg);
+  background-repeat: no-repeat;
+  display: inline-block; }
+
+.mouse {
+  height: 60px;
+  width: 55px;
+  background-position: 5px -5px; }
+
+.heart {
+  height: 60px;
+  width: 55px;
+  background-position: 130px -5px; }
+
+.blob {
+  height: 60px;
+  width: 55px;
+  background-position: -5px -5px; }
+
 .about__bottom {
   background: #f3f3f3;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin: 0 200px 0 200px; }
+
+.about__details--description {
+  margin-top: 0px; }
 
 .about__details--left {
   display: block; }
+
+.about__details--right {
+  margin-left: 100px;
+  margin-top: 100px; }
+
+.about__background {
+  background: #f3f3f3; }
