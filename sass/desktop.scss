@@ -78,28 +78,22 @@ body {
   flex-direction: column;
 }
 .about__details--buttons{
-  flex-direction: row;
-  
+  display: flex;
 }
-.mouse, .heart, .blob{
-  background: url(assets/about-bottons.jpg);
-  background-repeat: no-repeat;
-  display: inline-block
+.about__details--buttons li {
+  list-style: none;
+  height: 60px;
+  width: 60px;
+  background: url(/assets/about-bottons.jpg) no-repeat;
 }
-.mouse{
-  height:60px;
-  width: 55px;  
-  background-position: 5px -5px;
+.about__details--buttons li :first-child{
+  background-position: 100px -86px;
 }
-.heart{
-  height:60px;
-  width: 55px;
-  background-position: 130px -5px;
+.about__details--buttons li :second-child{
+  background-position: 0 -86px;
 }
-.blob{
-  height:60px;
-  width: 55px;
-  background-position: -5px -5px;
+.about__details--buttons li :third-child{
+  background-position: 0 -86px;
 }
 .about__bottom{
   background:#f3f3f3;
