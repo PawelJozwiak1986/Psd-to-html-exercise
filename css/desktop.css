@@ -58,7 +58,8 @@ body {
 
 .about {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 50px; }
 
 .about__describe {
   width: 30%; }
@@ -128,6 +129,9 @@ body {
   margin-top: 37px;
   margin-left: 120px;
   margin-right: 53px; }
+
+.about__details--right, .about__details--left {
+  margin-bottom: 50px; }
 
 .about__background {
   background: #f3f3f3; }
