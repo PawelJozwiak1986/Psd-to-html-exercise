@@ -2,11 +2,11 @@ body {
   background: url(/assets/Landing-bgr.jpg) no-repeat;
 }
 #logo {
+  display: flex;
   background: url(/assets/bouncy-logo.jpg);
   height: 40px;
   width: 123px;
   margin-left: 87px;
-  display: flex;
   justify-content: flex-start;
 }
 .nav {
@@ -123,11 +123,12 @@ body {
 .about__details--description{
   margin-top:0px;
 }
-.about__details--left p{
-  margin-top:32px;
-}
+
 .about__details--left{
   display: block;
+  p{
+    margin-top:32px;
+  }
 }
 .about__details--right{
   margin-top: 37px;
@@ -139,4 +140,40 @@ body {
 }
 .about__background{
   background:#f3f3f3;
+}
+.featured__top--description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+.featured__main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.featured__1{
+  height: 33vh;
+  width: 245vh;
+  background: url(/assets/featured-bgr.jpg);
+  display: flex;
+}
+.featured__2{
+  height: 33vh;
+  width: 101vh;
+  background: url(/assets/featured-bgr.jpg);
+  display: flex;
+  background-position: 665px 0;
+}
+.featured__3{
+  height: 33vh;
+  width: 101vh;
+  background: url(/assets/featured-bgr.jpg);
+  display: flex;
+  background-position: 332px 0;
+}
+.featured__footer{
+  display: flex;
 }
